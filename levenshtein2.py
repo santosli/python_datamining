@@ -13,9 +13,6 @@ def levenshtein2(s1,s2):
 	len1 = len(s1)
 	len2 = len(s2)
 	matrix = {}
-
-	#for i in range(len1 + 1):
-	#	matrix[i] = range(i,i + len2 + 1)
 	
 	for i in xrange(len1 + 1):
 		matrix[i,0] = i
